@@ -10,24 +10,28 @@ Temel seviyede içerik ve kullanıcı yönetimi işlemlerini içerir.
 - HTML / CSS
 
 ## Dosya Yapısı
+
+```
 CMS/
 ├── css/
-│   └── public.css           # Genel stil dosyası
+│   └── public.css          # Genel stil dosyası
+│
 ├── includes/
-│   ├── connection.php       # Veritabanı bağlantısı
-│   ├── close_connection.php # Bağlantı kapatma
-│   ├── header.php           # Üst kısım
-│   ├── footer.php           # Alt kısım
-│   └── function.php         # Yardımcı fonksiyonlar
-├── index.php                # Ana sayfa
-├── icerik.php               # İçerik görüntüleme
-├── yonetim.php              # Yönetim paneli
-├── giris.php                # Giriş sayfası
-├── yeni_kullanici.php       # Kullanıcı kayıt
-├── konu_ekle.php            # Yeni konu ekleme
-├── konu_duzenle.php         # Konu düzenleme
-└── konu_sil.php             # Konu silme
-
+│   ├── connection.php      # Veritabanı bağlantısı
+│   ├── close_connection.php# Bağlantı kapatma
+│   ├── header.php          # Üst kısım
+│   ├── footer.php          # Alt kısım
+│   └── function.php        # Yardımcı fonksiyonlar
+│
+├── index.php               # Ana sayfa
+├── icerik.php              # İçerik görüntüleme
+├── yonetim.php             # Yönetim paneli
+├── giris.php               # Giriş sayfası
+├── yeni_kullanici.php      # Kullanıcı kayıt
+├── konu_ekle.php           # Yeni konu ekleme
+├── konu_duzenle.php        # Konu düzenleme
+└── konu_sil.php            # Konu silme
+```
 
 ## Dosyaların Kısa Açıklamaları
 
